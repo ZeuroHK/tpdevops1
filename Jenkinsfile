@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Clone Repository') {
 steps {
-git 'https://github.com/ZeuroHK/tpdevops1.git'
+checkout scm
 }
 }
 stage('Build Docker Image') {
