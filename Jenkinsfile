@@ -9,14 +9,14 @@ checkout scm
 stage('Build Docker Image') {
 steps {
 script {
-docker.build('my-app')
+docker.build('tpdevops1')
 }
 }
 }
 stage('Run Docker Container') {
 steps {
 script {
-docker.image('my-app').inside {
+docker.image('tpdevops1').inside {
 sh 'node app.js &'
 }
 }
