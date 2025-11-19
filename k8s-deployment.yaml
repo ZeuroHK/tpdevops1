@@ -15,7 +15,7 @@ app: my-app
 spec:
 containers:
 - name: my-app
-image: tpdevops1/my-app:latest
+image: ZeuroHK/my-app:latest
 ports:
 - containerPort: 3000
 ---
