@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: my-app
-          image: ghcr.io/ZeuroHK/my-app:latest
+          image: ghcr.io/zeurohk/my-app:latest
           ports:
             - containerPort: 3000
 
